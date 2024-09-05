@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskBobo - Your Trusted Service Partner</title>
+    <style>
+        /* Reset some default styles for cross-browser consistency */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+         nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav button {
+            color: #fff;
+            background-color: #333;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        nav button:hover {
+            background-color: #555;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .hero {
+            background: url('hero-image.jpg') center/cover no-repeat;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff4500;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .main-content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .service-column {
+            flex: 0 0 calc(33.33% - 20px);
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .service-column img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .service-info {
+            padding: 15px;
+        }
+
+        .service-info h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .service-info p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TaskBobo</h1>
+    </header>
+    
+    <nav>
+        <button onclick="location.href='#'"><a href='#'>Home</a></button>
+        <button onclick="location.href='#services'"><a href='services.html'>Services</a></button>
+        <button onclick="location.href='#about-us'"><a href='ab'>About us</a></button>
+        <button onclick="location.href='#contact'"><a href='#'>Contract</a></button>
+    </nav>
+
+    <div class="hero">
+        <h2>Your Trusted Service Partner</h2>
+        <a href="services.html" class="cta-button">Explore Services</a>
+    </div>
+
+    <div class="main-content">
+        <section>
+            <h2>Our Services</h2>
+
+            <div class="services">
+                <div class="service-column">
+                    <img src="plumbling.jpg" alt="Plumbing Service">
+                    <div class="service-info">
+                        <h3>Plumbing</h3>
+                        <p>Fixing leaks and repairs, installation of plumbing systems, emergency plumbing services.</p>
+                    </div>
+                </div>
+
+                <div class="service-column">
+                    <img src="assignment.jpg" alt="Do My Assignment Service">
+                    <div class="service-info">
+                        <h3>Do My Assignment</h3>
+                        <p>Expert writers for various subjects, plagiarism-free content, on-time delivery.</p>
+                    </div>
+                </div>
+
+                <div class="service-column">
+                    <img src="cab.jpg" alt="Book a Cab Service">
+                    <div class="service-info">
+                        <h3>Book a Cab</h3>
+                        <p>24/7 taxi service, experienced and reliable drivers, easy booking process.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>About Us</h2>
+            <p>TaskBobo is your reliable partner for various services. We are dedicated to providing high-quality plumbing, cab booking, and assignment assistance services. Our team of professionals is committed to ensuring customer satisfaction by delivering prompt and efficient services. With TaskBobo, you can trust us to meet your needs with expertise and excellence.</p>
+            <!-- Add team member images and descriptions here -->
+        </section>
+
+        <section>
+            <h2>Why Choose Us</h2>
+            <ul>
+                <li>Experienced Professionals: Our team consists of experienced and skilled professionals in their respective fields.</li>
+                <li>Customer-Centric Approach: We prioritize customer satisfaction and aim to exceed your expectations.</li>
+                <li>Reliability: TaskBobo is known for its reliable and timely services, ensuring your peace of mind.</li>
+                <li>Quality Assurance: We maintain high standards of quality in all our services, from plumbing to cab booking.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>Contact us at: info@taskbobo.com | Follow us on social media: @TaskBobo</p>
+        <p>&copy; 2024 TaskBobo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
